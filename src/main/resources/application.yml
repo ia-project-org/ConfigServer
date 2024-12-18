@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: config-server
+
+  profiles:
+    active: default
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ia-project-org/ConfigServer.git
+          default-label: server-config
+
+server:
+  port: 8888
