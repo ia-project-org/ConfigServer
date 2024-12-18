@@ -9,8 +9,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/ia-project-org/ConfigServer.git
-          default-label: server-config
+          uri: https://github.com/ia-project-org/MicroservicesConfiguration.git
+          default-label: main
 
 server:
   port: 8888
