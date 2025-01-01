@@ -73,7 +73,7 @@ pipeline {
                              git config --global user.name "Jenkins"
                              git add deployment/config-server/config-server-deployment.yaml
                              git commit -m "Update image to ${imageTag}"
-                             git push https://${GITHUB_USERNAME}:${GITHUB_PASSWORD}@github.com/MINAWI0/manifest-argo.git main
+                             git push https://${GITHUB_USERNAME}:${GITHUB_PASSWORD}@github.com/ia-project-org/MicroservicesConfiguration.git main
                          """
                  }
          }
